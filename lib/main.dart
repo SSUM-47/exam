@@ -170,7 +170,8 @@ class Screen2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-        child: Text('Screen2'),
+        child: Text('大一學習C語言、組合語言、計算機概論、html、php、計算機結構，大二學習java物件導向、系統程式，組合語言等，大三正在學演算法、app、資料庫、作業系統。'),
+
       ),
     );
   }
@@ -199,9 +200,55 @@ class Screen3 extends StatelessWidget {
                 child: ListView(
                   children: [
                     Text('1. 學好英文'),
-                    Text('2. 組合語言'),
+                    Text('2. C語言'),
                     Text('3. 考取證照'),
                     Text('4. 人際關係'),
+                  ],
+                ),
+              ),
+            ],
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: [
+              Text('大二時期'),
+            ],
+          ),
+          SizedBox(height: 10,),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [
+              Container(
+                height: 200,
+                width: 200,
+                child: ListView(
+                  children: [
+                    Text('1. 持續加強英文'),
+                    Text('2. java語言'),
+                    Text('3. 人際關係'),
+                  ],
+                ),
+              ),
+            ],
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: [
+              Text('大三時期'),
+            ],
+          ),
+          SizedBox(height: 10,),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [
+              Container(
+                height: 200,
+                width: 200,
+                child: ListView(
+                  children: [
+                    Text('1. 持續加強英文'),
+                    Text('2. 作業系統、python、演算法'),
+                    Text('3. 人際關係'),
                   ],
                 ),
               ),
@@ -225,7 +272,7 @@ class Screen4 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-        child: Text('Screen4'),
+        child: Text('接下來這一年準備考研究所'),
       ),
     );
   }
